@@ -38,6 +38,8 @@ This clean dataset is used to show that the model **perfectly fits** linear data
 x = [1, 2, 3, ..., 10]
 y = [3, 5, 7, ..., 21]  # y = 2x + 1
 ```
+![Perfect Linear Fit](python/plot_perfect.png)
+
 
 ### 🟠 Noisy Linear Data: `y = 2x + 1`
 
@@ -47,6 +49,7 @@ This noisy dataset is used to show that the model **tries to generalise** noisy 
 x = [1, 2, 3, ..., 10]
 y = [3, 6, 7, 10, 9, 13, 14, 15, 19, 18]  # some deviation from perfect line
 ```
+![Noisy Linear Fit](python/plot_noisy.png)
 
 ### 📁 Folder Structure
 ```
